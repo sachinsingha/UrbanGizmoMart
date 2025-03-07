@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanGizmoMart</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #222;
+            color: white;
+            border-radius: 8px;
+            height: 10vh;
+        }
+        .links {
+            display: flex;
+            gap: 30px;
+            list-style-type: none;
+            padding: 0;
+        }
+        .links li {
+            cursor: pointer;
+        }
+        .main {
+            padding: 10px;
+            background: #f5f5f5;
+        }
+        .shop, .explore {
+            background-color: #0073e6;
+            color: white;
+            cursor: pointer;
+            width: 150px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .shop:hover, .explore:hover {
+            background-color: #005bb5;
+        }
+        .category-section {
+            background: #f5f5f5;
+            padding: 30px 0;
+        }
+        .boxes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .box1 {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 200px;
+            text-align: center;
+        }
+        .box1 img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h2>UrbanGizmoMart</h2>
+        <ul class="links">
+            <li>Home</li>
+            <li>Products</li>
+            <li>Services</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
+
+    <section class="main">
+        <h1>Welcome to <strong>UrbanGizmoMart</strong></h1>
+        <h4>Your one-stop shop for the latest gadgets, fashion, and lifestyle products.</h4>
+        <button class="shop">Shop Now</button>
+    </section>
+
+    <div class="category-section">
+        <h3>Shop by Category</h3>
+        <div class="boxes">
+            <div class="box1">
+                <img src="imgonline-com-ua-Resize-SYEKlBcqIuhib.jpg"alt="Electronics">
+                <h4>Electronics</h4>
+                <button class="explore">Explore Now</button>
+            </div>
+            <div class="box1">
+                <img src="1000_F_596626503_jrzjZNYStDexiWxQFqO7oCh6M8PdMlJs.jpg" alt="Fashion">
+                <h4>Fashion</h4>
+                <button class="explore">Explore Now</button>
+            </div>
+            <div class="box1">
+                <img src="p-kitchens-small-appliances-gadgets-blue-background-ht4w1920.jpg" alt="Home Appliances">
+                <h4>Home Appliances</h4>
+                <button class="explore">Explore Now</button>
+            </div>
+            <div class="box1">
+                <img src="images.jpeg" alt="Fitness">
+                <h4>Fitness</h4>
+                <button class="explore">Explore Now</button>
+            </div>
+            <div class="box1">
+                <img src="images (1).jpeg" alt="Beauty">
+                <h4>Beauty</h4>
+                <button class="explore">Explore Now</button>
+            </div>
+            <div class="box1">
+                <img src="images (2).jpeg" alt="Books">
+                <h4>Books</h4>
+                <button class="explore">Explore Now</button>
+            </div>
+            <div class="box1">
+                <img src="images.jpg" alt="Books">
+                <h4>Sports</h4>
+                <button class="explore">Explore Now</button>
+            </div>
+            <div class="box1">
+                <img src="images (3).jpeg" alt="Books">
+                <h4>Kids</h4>
+                <button class="explore">Explore Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
